@@ -34,6 +34,7 @@ class Downloader(object):
             raise Exception('Failed to parse class ID from URL')
 
         self.download_course_by_class_id(m.group(1))
+        
 
     def download_course_by_class_id(self, class_id):
         data = self.fetch_course_data_by_class_id(class_id=class_id)
@@ -70,9 +71,13 @@ class Downloader(object):
         for u in data['_embedded']['units']['_embedded']['units']:
             for s in u['_embedded']['sessions']['_embedded']['sessions']:
                 video_id = None
-
+                # if 'video_hashed_id' in s and s['video_hashed_id']:
+                #   video_id = s['video_hashed_id'].split(':')[1];
+                    
                 if 'video_hashed_id' in s and s['video_hashed_id']:
                     video_id = s['video_hashed_id'].split(':')[1]
+                elif 'video_thumbnail_url' in s and s['video_thumbnail_url']:
+                    video_id = s['video_thumbnail_url'].split('/')[6]
 
                 if not video_id:
                     # NOTE: this happens sometimes...
@@ -80,7 +85,9 @@ class Downloader(object):
                     # server-side check on user-agent etc?
                     # ...think it's more stable now with those set to
                     # emulate an android device
-                    raise Exception('Failed to read video ID from data')
+                    # raise Exception('Failed to read video ID from data')
+                    print ('EXCEPTION: Failed to read video ID from data')
+                    return
 
                 s_title = s['title']
 
@@ -97,12 +104,15 @@ class Downloader(object):
                         base_path=base_path,
                         session=file_name,
                     ),
-                    video_id=video_id,
+                    video_id=video_id
                 )
 
                 print('')
 
     def fetch_course_data_by_class_id(self, class_id):
+        ssurl='https://api.skillshare.com/classes/{}'.format(class_id)
+        print("url: ",ssurl)
+
         res = requests.get(
             url='https://api.skillshare.com/classes/{}'.format(class_id),
             headers={
@@ -115,16 +125,19 @@ class Downloader(object):
         )
 
         if not res.status_code == 200:
-            raise Exception('Fetch error, code == {}'.format(res.status_code))
+            # raise Exception('Fetch error, code == {}'.format(res.status_code))
+            print('EXCEPTION: Fetch error, code == {}'.format(res.status_code))
+            return
 
         return res.json()
 
     def download_video(self, fpath, video_id):
         meta_url = 'https://edge.api.brightcove.com/playback/v1/accounts/{account_id}/videos/{video_id}'.format(
             account_id=self.brightcove_account_id,
-            video_id=video_id,
+            video_id=video_id
         )
 
+        print('Downloading: ', fpath);
         meta_res = requests.get(
             meta_url,
             headers={
@@ -135,7 +148,9 @@ class Downloader(object):
         )
 
         if meta_res.status_code != 200:
-            raise Exception('Failed to fetch video meta')
+            # raise Exception('Failed to fetch video meta')
+            print('EXCEPTION: Failed to fetch video meta - ', meta_url)
+            return
 
         for x in meta_res.json()['sources']:
             if 'container' in x:
