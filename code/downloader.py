@@ -33,11 +33,32 @@ class Downloader(object):
         if not m:
             raise Exception('Failed to parse class ID from URL')
 
-        self.download_course_by_class_id(m.group(1))
+        self.download_course_by_class_id(m.group(1), False)
         
 
-    def download_course_by_class_id(self, class_id):
-        data = self.fetch_course_data_by_class_id(class_id=class_id)
+    def download_course_by_data(self, class_id):
+        print ('Download class# {}'.format(class_id))
+        self.download_course_by_class_id (class_id, True)
+    
+    def download_course_by_class_id(self, class_id, read_data_file=False):
+        if read_data_file:
+            datafilename = '{}.json'.format(class_id)
+            data = None
+            
+            try:
+                datafile = open(datafilename)
+                data = json.load(datafile)
+                datafile.close()
+            except IOError:
+                exception_msg = 'Data file ''{}'' is not available. Place the correct file and try again...'.format(datafilename)
+                raise Exception(exception_msg)
+            finally:
+                None
+
+            print('{} is available...'.format(datafilename))
+        else:
+            data = self.fetch_course_data_by_class_id(class_id=class_id)
+
         teacher_name = None
 
         if 'vanity_username' in data['_embedded']['teacher']:
@@ -47,7 +68,9 @@ class Downloader(object):
             teacher_name = data['_embedded']['teacher']['full_name']
 
         if not teacher_name:
-            raise Exception('Failed to read teacher name from data')
+            print('Failed to read teacher name from data')
+            teacher_name = 'skillshare'
+            # raise Exception('Failed to read teacher name from data')
 
         if self.is_unicode_string(teacher_name):
             teacher_name = teacher_name.encode('ascii', 'replace')
@@ -99,6 +122,7 @@ class Downloader(object):
                     slugify(s_title),
                 )
 
+                print('filename : {} - videoid : {}'.format(file_name, video_id))
                 self.download_video(
                     fpath='{base_path}/{session}.mp4'.format(
                         base_path=base_path,

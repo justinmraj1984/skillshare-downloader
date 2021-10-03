@@ -1,0 +1,614 @@
+{
+  "id": 226557,
+  "sku": 1814307821,
+  "title": "Understand Blockchain Using Design Thinking",
+  "project_title": "Create your own design thinking process and brainstorm potential blockchain solutions. Use the process roadmap in video 2 to sketch your idea. Focus on how it will scale with the creation of an ecosys",
+  "image_huge": "https://static.skillshare.com/uploads/video/thumbnails/b005e379bdf4793872a3f07589608b69/original",
+  "image_small": "https://static.skillshare.com/uploads/video/thumbnails/b005e379bdf4793872a3f07589608b69/448-252",
+  "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/b005e379bdf4793872a3f07589608b69/220-124",
+  "web_url": "https://www.skillshare.com/classes/Understand-Blockchain-Using-Design-Thinking/1814307821",
+  "enrollment_type": 2,
+  "category": "Business",
+  "price": null,
+  "num_videos": 6,
+  "total_videos_duration": "47m",
+  "total_videos_duration_seconds": 2813,
+  "num_reviews": 0,
+  "num_positive_reviews": 0,
+  "num_students": 553,
+  "num_projects": 1,
+  "num_discussions": 1,
+  "is_staff_pick": false,
+  "is_skillshare_produced": false,
+  "relative_publish_time": "Jan 29th, 2018",
+  "actions": [],
+  "_links": {
+    "self": {
+      "href": "/classes/1814307821",
+      "title": "Understand Blockchain Using Design Thinking"
+    },
+    "teacher": {
+      "href": "/users/2429903",
+      "title": "Damanick Dantes, CMT - Macro Trader at Dantes Outlook"
+    },
+    "units": {
+      "href": "/classes/1814307821/units",
+      "title": "Units for Class: 1814307821"
+    },
+    "sessions": {
+      "href": "/classes/1814307821/sessions",
+      "title": "Sessions for Class: 1814307821"
+    },
+    "category": {
+      "href": "/tags/business",
+      "title": "Business"
+    },
+    "students": {
+      "href": "/classes/1814307821/students",
+      "title": "Students for Class: 1814307821"
+    },
+    "projects": {
+      "href": "/classes/1814307821/projects",
+      "title": "Projects for Class: 1814307821"
+    },
+    "reviews": {
+      "href": "/classes/1814307821/reviews",
+      "title": "Reviews for Class: 1814307821"
+    }
+  },
+  "_embedded": {
+    "teacher": {
+      "username": 2429903,
+      "first_name": "Damanick",
+      "last_name": "Dantes, CMT",
+      "full_name": "Damanick Dantes, CMT",
+      "headline": "Macro Trader at Dantes Outlook",
+      "url": "http://dantesoutlook.com",
+      "pic": "https://static.skillshare.com/uploads/users/2429903/user-image-medium.jpg?643733967",
+      "pic_sm": "https://static.skillshare.com/uploads/users/2429903/user-image-small.jpg?1765272856",
+      "pic_lg": "https://static.skillshare.com/uploads/users/2429903/user-image-large.jpg?594943533",
+      "is_teacher": true,
+      "is_top_teacher": false,
+      "numFollowers": 1781,
+      "numFollowing": 27,
+      "is_profile_private": false,
+      "vanity_username": "damanick",
+      "_links": {
+        "self": {
+          "href": "/users/2429903",
+          "title": "Damanick Dantes, CMT - Macro Trader at Dantes Outlook"
+        },
+        "my_classes": {
+          "href": "/users/2429903/classes",
+          "title": "My Classes"
+        },
+        "completions": {
+          "href": "/users/2429903/completions",
+          "title": "Completions for User: 2429903"
+        },
+        "discussions": {
+          "href": "/users/2429903/discussions",
+          "title": "Discussions for User: 2429903"
+        },
+        "followers": {
+          "href": "/users/2429903/followers",
+          "title": "Followers for User: 2429903"
+        },
+        "following": {
+          "href": "/users/2429903/following",
+          "title": "Following for User: 2429903"
+        },
+        "groups": {
+          "href": "/users/2429903/groups",
+          "title": "Groups for User: 2429903"
+        },
+        "notifications": {
+          "href": "/users/2429903/notifications",
+          "title": "Notifications for User: 2429903"
+        },
+        "projects": {
+          "href": "/users/2429903/projects",
+          "title": "Projects for User: 2429903"
+        },
+        "rosters": {
+          "href": "/users/2429903/rosters",
+          "title": "Rosters for User: 2429903"
+        },
+        "userTags": {
+          "href": "/users/2429903/userTags",
+          "title": "UserTags for User: 2429903"
+        },
+        "votes": {
+          "href": "/users/2429903/votes",
+          "title": "Votes for User: 2429903"
+        },
+        "wishlist": {
+          "href": "/users/2429903/wishlist",
+          "title": "Wishlist for User: 2429903"
+        }
+      }
+    },
+    "units": {
+      "_links": {
+        "self": {
+          "href": "/classes/1814307821/units",
+          "title": "Units for Class: 1814307821"
+        }
+      },
+      "_embedded": {
+        "units": [
+          {
+            "id": 675089,
+            "parent_class_sku": 1814307821,
+            "type": null,
+            "rank": 0,
+            "index": 1,
+            "title": "Videos",
+            "create_time": "2018-01-29 00:50:28",
+            "update_time": "2018-03-06 20:05:18",
+            "_links": {
+              "self": {
+                "href": "/units/675089",
+                "title": "Videos"
+              },
+              "parentClass": {
+                "href": "/classes/1814307821",
+                "title": "Understand Blockchain Using Design Thinking"
+              },
+              "sessions": {
+                "href": "/units/675089/sessions",
+                "title": "Sessions for Unit: 675089"
+              }
+            },
+            "_embedded": {
+              "sessions": {
+                "_links": {
+                  "self": {
+                    "href": "/units/675089/sessions",
+                    "title": "Sessions for Unit: 675089"
+                  }
+                },
+                "_embedded": {
+                  "sessions": [
+                    {
+                      "id": 2800443,
+                      "parent_class_sku": 1814307821,
+                      "unit_id": 0,
+                      "index": 0,
+                      "title": "Welcome to Design Thinking for Blockchain",
+                      "rank": 0,
+                      "last_played_time": 20,
+                      "video_hashed_id": "bc:5721274678001",
+                      "video_duration": "0:43",
+                      "video_duration_seconds": 43,
+                      "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/b005e379bdf4793872a3f07589608b69/448-252",
+                      "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/b005e379bdf4793872a3f07589608b69/original",
+                      "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/b005e379bdf4793872a3f07589608b69/220-124",
+                      "create_time": "2018-01-29 00:51:09",
+                      "update_time": "2018-03-06 20:05:18",
+                      "_links": {
+                        "self": {
+                          "href": "/sessions/2800443",
+                          "title": "Welcome to Design Thinking for Blockchain"
+                        },
+                        "download": {
+                          "href": "/sessions/2800443/download",
+                          "title": "Welcome to Design Thinking for Blockchain"
+                        },
+                        "parentClass": {
+                          "href": "/classes/1814307821",
+                          "title": "Understand Blockchain Using Design Thinking"
+                        },
+                        "unit": {
+                          "href": "/units/675089",
+                          "title": "Videos"
+                        }
+                      }
+                    },
+                    {
+                      "id": 2800445,
+                      "parent_class_sku": 1814307821,
+                      "unit_id": 0,
+                      "index": 1,
+                      "title": "Design Thinking ",
+                      "rank": 1,
+                      "last_played_time": 0,
+                      "video_hashed_id": "bc:5721273926001",
+                      "video_duration": "8:36",
+                      "video_duration_seconds": 516,
+                      "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/f307df359f0c5726e9ec79e19e923fa2/448-252",
+                      "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/f307df359f0c5726e9ec79e19e923fa2/original",
+                      "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/f307df359f0c5726e9ec79e19e923fa2/220-124",
+                      "create_time": "2018-01-29 00:51:35",
+                      "update_time": "2018-03-06 20:05:18",
+                      "_links": {
+                        "self": {
+                          "href": "/sessions/2800445",
+                          "title": "Design Thinking "
+                        },
+                        "download": {
+                          "href": "/sessions/2800445/download",
+                          "title": "Design Thinking "
+                        },
+                        "parentClass": {
+                          "href": "/classes/1814307821",
+                          "title": "Understand Blockchain Using Design Thinking"
+                        },
+                        "unit": {
+                          "href": "/units/675089",
+                          "title": "Videos"
+                        }
+                      }
+                    },
+                    {
+                      "id": 2800446,
+                      "parent_class_sku": 1814307821,
+                      "unit_id": 0,
+                      "index": 2,
+                      "title": "Blockchain",
+                      "rank": 2,
+                      "last_played_time": 0,
+                      "video_hashed_id": "bc:5721264976001",
+                      "video_duration": "9:36",
+                      "video_duration_seconds": 576,
+                      "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/94171ed43f28289340c746b8ff345025/448-252",
+                      "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/94171ed43f28289340c746b8ff345025/original",
+                      "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/94171ed43f28289340c746b8ff345025/220-124",
+                      "create_time": "2018-01-29 00:51:43",
+                      "update_time": "2018-03-06 20:05:18",
+                      "_links": {
+                        "self": {
+                          "href": "/sessions/2800446",
+                          "title": "Blockchain"
+                        },
+                        "download": {
+                          "href": "/sessions/2800446/download",
+                          "title": "Blockchain"
+                        },
+                        "parentClass": {
+                          "href": "/classes/1814307821",
+                          "title": "Understand Blockchain Using Design Thinking"
+                        },
+                        "unit": {
+                          "href": "/units/675089",
+                          "title": "Videos"
+                        }
+                      }
+                    },
+                    {
+                      "id": 2800447,
+                      "parent_class_sku": 1814307821,
+                      "unit_id": 0,
+                      "index": 3,
+                      "title": "Empathy",
+                      "rank": 3,
+                      "last_played_time": 0,
+                      "video_hashed_id": "bc:5721274682001",
+                      "video_duration": "8:41",
+                      "video_duration_seconds": 521,
+                      "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/d515f3d51bfb5dd268ac15586dcf59b4/448-252",
+                      "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/d515f3d51bfb5dd268ac15586dcf59b4/original",
+                      "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/d515f3d51bfb5dd268ac15586dcf59b4/220-124",
+                      "create_time": "2018-01-29 00:51:47",
+                      "update_time": "2018-03-06 20:05:18",
+                      "_links": {
+                        "self": {
+                          "href": "/sessions/2800447",
+                          "title": "Empathy"
+                        },
+                        "download": {
+                          "href": "/sessions/2800447/download",
+                          "title": "Empathy"
+                        },
+                        "parentClass": {
+                          "href": "/classes/1814307821",
+                          "title": "Understand Blockchain Using Design Thinking"
+                        },
+                        "unit": {
+                          "href": "/units/675089",
+                          "title": "Videos"
+                        }
+                      }
+                    },
+                    {
+                      "id": 2800448,
+                      "parent_class_sku": 1814307821,
+                      "unit_id": 0,
+                      "index": 4,
+                      "title": "Digital Twin",
+                      "rank": 4,
+                      "last_played_time": 0,
+                      "video_hashed_id": "bc:5721278536001",
+                      "video_duration": "8:24",
+                      "video_duration_seconds": 504,
+                      "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/928c3dc71d11730579f1e2d7f43a050d/448-252",
+                      "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/928c3dc71d11730579f1e2d7f43a050d/original",
+                      "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/928c3dc71d11730579f1e2d7f43a050d/220-124",
+                      "create_time": "2018-01-29 00:51:47",
+                      "update_time": "2018-03-06 20:05:18",
+                      "_links": {
+                        "self": {
+                          "href": "/sessions/2800448",
+                          "title": "Digital Twin"
+                        },
+                        "download": {
+                          "href": "/sessions/2800448/download",
+                          "title": "Digital Twin"
+                        },
+                        "parentClass": {
+                          "href": "/classes/1814307821",
+                          "title": "Understand Blockchain Using Design Thinking"
+                        },
+                        "unit": {
+                          "href": "/units/675089",
+                          "title": "Videos"
+                        }
+                      }
+                    },
+                    {
+                      "id": 2800449,
+                      "parent_class_sku": 1814307821,
+                      "unit_id": 0,
+                      "index": 5,
+                      "title": "Crypto Financial Market",
+                      "rank": 5,
+                      "last_played_time": 0,
+                      "video_hashed_id": "bc:5721260828001",
+                      "video_duration": "10:53",
+                      "video_duration_seconds": 653,
+                      "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/abca84b970eeacc58fbd7e924e42f552/448-252",
+                      "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/abca84b970eeacc58fbd7e924e42f552/original",
+                      "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/abca84b970eeacc58fbd7e924e42f552/220-124",
+                      "create_time": "2018-01-29 00:51:53",
+                      "update_time": "2018-03-06 20:05:18",
+                      "_links": {
+                        "self": {
+                          "href": "/sessions/2800449",
+                          "title": "Crypto Financial Market"
+                        },
+                        "download": {
+                          "href": "/sessions/2800449/download",
+                          "title": "Crypto Financial Market"
+                        },
+                        "parentClass": {
+                          "href": "/classes/1814307821",
+                          "title": "Understand Blockchain Using Design Thinking"
+                        },
+                        "unit": {
+                          "href": "/units/675089",
+                          "title": "Videos"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sessions": {
+      "_links": {
+        "self": {
+          "href": "/classes/1814307821/sessions",
+          "title": "Sessions for Class: 1814307821"
+        }
+      },
+      "_embedded": {
+        "sessions": [
+          {
+            "id": 2800443,
+            "parent_class_sku": 1814307821,
+            "unit_id": 0,
+            "index": 0,
+            "title": "Welcome to Design Thinking for Blockchain",
+            "rank": 0,
+            "last_played_time": 20,
+            "video_hashed_id": "bc:5721274678001",
+            "video_duration": "0:43",
+            "video_duration_seconds": 43,
+            "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/b005e379bdf4793872a3f07589608b69/448-252",
+            "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/b005e379bdf4793872a3f07589608b69/original",
+            "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/b005e379bdf4793872a3f07589608b69/220-124",
+            "create_time": "2018-01-29 00:51:09",
+            "update_time": "2018-03-06 20:05:18",
+            "_links": {
+              "self": {
+                "href": "/sessions/2800443",
+                "title": "Welcome to Design Thinking for Blockchain"
+              },
+              "download": {
+                "href": "/sessions/2800443/download",
+                "title": "Welcome to Design Thinking for Blockchain"
+              },
+              "parentClass": {
+                "href": "/classes/1814307821",
+                "title": "Understand Blockchain Using Design Thinking"
+              },
+              "unit": {
+                "href": "/units/675089",
+                "title": "Videos"
+              }
+            }
+          },
+          {
+            "id": 2800445,
+            "parent_class_sku": 1814307821,
+            "unit_id": 0,
+            "index": 1,
+            "title": "Design Thinking ",
+            "rank": 1,
+            "last_played_time": 0,
+            "video_hashed_id": "bc:5721273926001",
+            "video_duration": "8:36",
+            "video_duration_seconds": 516,
+            "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/f307df359f0c5726e9ec79e19e923fa2/448-252",
+            "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/f307df359f0c5726e9ec79e19e923fa2/original",
+            "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/f307df359f0c5726e9ec79e19e923fa2/220-124",
+            "create_time": "2018-01-29 00:51:35",
+            "update_time": "2018-03-06 20:05:18",
+            "_links": {
+              "self": {
+                "href": "/sessions/2800445",
+                "title": "Design Thinking "
+              },
+              "download": {
+                "href": "/sessions/2800445/download",
+                "title": "Design Thinking "
+              },
+              "parentClass": {
+                "href": "/classes/1814307821",
+                "title": "Understand Blockchain Using Design Thinking"
+              },
+              "unit": {
+                "href": "/units/675089",
+                "title": "Videos"
+              }
+            }
+          },
+          {
+            "id": 2800446,
+            "parent_class_sku": 1814307821,
+            "unit_id": 0,
+            "index": 2,
+            "title": "Blockchain",
+            "rank": 2,
+            "last_played_time": 0,
+            "video_hashed_id": "bc:5721264976001",
+            "video_duration": "9:36",
+            "video_duration_seconds": 576,
+            "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/94171ed43f28289340c746b8ff345025/448-252",
+            "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/94171ed43f28289340c746b8ff345025/original",
+            "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/94171ed43f28289340c746b8ff345025/220-124",
+            "create_time": "2018-01-29 00:51:43",
+            "update_time": "2018-03-06 20:05:18",
+            "_links": {
+              "self": {
+                "href": "/sessions/2800446",
+                "title": "Blockchain"
+              },
+              "download": {
+                "href": "/sessions/2800446/download",
+                "title": "Blockchain"
+              },
+              "parentClass": {
+                "href": "/classes/1814307821",
+                "title": "Understand Blockchain Using Design Thinking"
+              },
+              "unit": {
+                "href": "/units/675089",
+                "title": "Videos"
+              }
+            }
+          },
+          {
+            "id": 2800447,
+            "parent_class_sku": 1814307821,
+            "unit_id": 0,
+            "index": 3,
+            "title": "Empathy",
+            "rank": 3,
+            "last_played_time": 0,
+            "video_hashed_id": "bc:5721274682001",
+            "video_duration": "8:41",
+            "video_duration_seconds": 521,
+            "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/d515f3d51bfb5dd268ac15586dcf59b4/448-252",
+            "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/d515f3d51bfb5dd268ac15586dcf59b4/original",
+            "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/d515f3d51bfb5dd268ac15586dcf59b4/220-124",
+            "create_time": "2018-01-29 00:51:47",
+            "update_time": "2018-03-06 20:05:18",
+            "_links": {
+              "self": {
+                "href": "/sessions/2800447",
+                "title": "Empathy"
+              },
+              "download": {
+                "href": "/sessions/2800447/download",
+                "title": "Empathy"
+              },
+              "parentClass": {
+                "href": "/classes/1814307821",
+                "title": "Understand Blockchain Using Design Thinking"
+              },
+              "unit": {
+                "href": "/units/675089",
+                "title": "Videos"
+              }
+            }
+          },
+          {
+            "id": 2800448,
+            "parent_class_sku": 1814307821,
+            "unit_id": 0,
+            "index": 4,
+            "title": "Digital Twin",
+            "rank": 4,
+            "last_played_time": 0,
+            "video_hashed_id": "bc:5721278536001",
+            "video_duration": "8:24",
+            "video_duration_seconds": 504,
+            "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/928c3dc71d11730579f1e2d7f43a050d/448-252",
+            "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/928c3dc71d11730579f1e2d7f43a050d/original",
+            "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/928c3dc71d11730579f1e2d7f43a050d/220-124",
+            "create_time": "2018-01-29 00:51:47",
+            "update_time": "2018-03-06 20:05:18",
+            "_links": {
+              "self": {
+                "href": "/sessions/2800448",
+                "title": "Digital Twin"
+              },
+              "download": {
+                "href": "/sessions/2800448/download",
+                "title": "Digital Twin"
+              },
+              "parentClass": {
+                "href": "/classes/1814307821",
+                "title": "Understand Blockchain Using Design Thinking"
+              },
+              "unit": {
+                "href": "/units/675089",
+                "title": "Videos"
+              }
+            }
+          },
+          {
+            "id": 2800449,
+            "parent_class_sku": 1814307821,
+            "unit_id": 0,
+            "index": 5,
+            "title": "Crypto Financial Market",
+            "rank": 5,
+            "last_played_time": 0,
+            "video_hashed_id": "bc:5721260828001",
+            "video_duration": "10:53",
+            "video_duration_seconds": 653,
+            "video_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/abca84b970eeacc58fbd7e924e42f552/448-252",
+            "video_mid_thumbnail_url": "https://static.skillshare.com/uploads/video/thumbnails/abca84b970eeacc58fbd7e924e42f552/original",
+            "image_thumbnail": "https://static.skillshare.com/uploads/video/thumbnails/abca84b970eeacc58fbd7e924e42f552/220-124",
+            "create_time": "2018-01-29 00:51:53",
+            "update_time": "2018-03-06 20:05:18",
+            "_links": {
+              "self": {
+                "href": "/sessions/2800449",
+                "title": "Crypto Financial Market"
+              },
+              "download": {
+                "href": "/sessions/2800449/download",
+                "title": "Crypto Financial Market"
+              },
+              "parentClass": {
+                "href": "/classes/1814307821",
+                "title": "Understand Blockchain Using Design Thinking"
+              },
+              "unit": {
+                "href": "/units/675089",
+                "title": "Videos"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

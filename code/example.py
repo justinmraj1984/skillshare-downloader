@@ -1,13 +1,20 @@
 from downloader import Downloader
 
 cookie = """
-muted=true; device_session_id=7ffe02db-a84b-4ef5-9c16-c361b77dc3d4; show-like-copy=1; visitor_tracking=utm_campaign%3DBrand_EN-ROW%26utm_source%3DGoogle%26utm_medium%3Dpaidsearch%26utm_term%3Dskillshare%26referrer%3Dhttps%3A%2F%2Fwww.google.com%2F%26referring_username%3D; first_landing=utm_campaign%3DBrand_EN-ROW%26utm_source%3DGoogle%26utm_medium%3Dpaidsearch%26utm_term%3Dskillshare%26referrer%3Dhttps%3A%2F%2Fwww.google.com%2F%26referring_username%3D; G_ENABLED_IDPS=google; YII_CSRF_TOKEN=ZlB5WTBvTENaTzFFMW5rZ0RvWjFkSXoyMDZVdURzQziNgITNx0UIIUHJXT_fJ768h-Yr8_awzmo3MaIS1UyABQ%3D%3D; __stripe_mid=00ae2334-754c-4138-8fde-22673909786c4376f2; __stripe_sid=ddd2ae75-0f98-48b4-b14c-0f223adce5b06e97b4; G_AUTHUSER_H=0; ss_hide_default_banner=1631509792.363
+muted=true; device_session_id=89627427-e0b5-469f-ba1c-6e2e6cd69435; show-like-copy=0; visitor_tracking=utm_campaign%3D%26utm_source%3D%28direct%29%26utm_medium%3D%28none%29%26utm_term%3D%26referrer%3D%26referring_username%3D; first_landing=utm_campaign%3D%26utm_source%3D%28direct%29%26utm_medium%3D%28none%29%26utm_term%3D%26referrer%3D%26referring_username%3D; G_ENABLED_IDPS=google; __stripe_mid=f691fad2-2dba-4b32-b90f-ac7c3b2038c975f39a; g_state={"i_l":0}; ss_hide_default_banner=1632578297.592; _fbp=fb.1.1632684278712.1791162368; YII_CSRF_TOKEN=Z3dnbGNPMzhWbTczUTlVYzBlaE5TNk5WMk1RZG12ZFCgI7Uvqm7eOl6PAoy1NsEvFyLGUmuhl2G2tqjS3epDrA%3D%3D; __stripe_sid=73e628aa-a49e-4b2e-ba43-c67dc61b789aebffc8
 """
 
 dl = Downloader(cookie=cookie)
 
-# download by class URL:
-# dl.download_course_by_url ('https://www.skillshare.com/classes/Visual-Thinking-Drawing-Data-to-Communicate-Ideas/1746654720')
+# OPTION 1: download by class URL:
+# dl.download_course_by_url ('https://www.skillshare.com/classes/Writing-production-ready-ETL-pipelines-in-Python-using-Pandas/395128062')
 
-# or by class ID:
-dl.download_course_by_class_id(34882377)
+# OPTION 2: download by class ID:
+# dl.download_course_by_class_id(1814307821, False)
+
+# OPTION 3: download by skillshare api data:
+# Use the class id to construct the below api and execute in the browser
+# https://api.skillshare.com/classes/1814307821
+# save the api response into a file - 1814307821.json and pass the class id and parameter
+dl.download_course_by_data(1814307821);
+
