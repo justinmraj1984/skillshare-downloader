@@ -30,11 +30,18 @@ ADD YOUR COOKIE HERE
 
 dl = Downloader(cookie=cookie)
 
-# download by class URL:
-dl.download_course_by_url('https://www.skillshare.com/classes/Art-Fundamentals-in-One-Hour/189505397')
+# OPTION 1: download by class URL:
+# dl.download_course_by_url ('https://www.skillshare.com/classes/Art-Fundamentals-in-One-Hour/189505397')
 
-# or by class ID:
-# dl.download_course_by_class_id(189505397)
+# OPTION 2: download by class ID:
+# dl.download_course_by_class_id(189505397, False)
+
+# OPTION 3: download by skillshare api data:
+# Use the class id to construct the below api and execute in the browser
+# https://api.skillshare.com/classes/189505397
+# save the api response into a file - 189505397.json and pass the class id and parameter
+dl.download_course_by_data(189505397);
+
 ```
 
 4. (Optionally) run with docker and docker-compose:
