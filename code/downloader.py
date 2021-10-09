@@ -2,7 +2,7 @@ import requests
 import json
 import sys
 import re
-import os
+import shutil, os
 from slugify import slugify
 
 
@@ -39,6 +39,11 @@ class Downloader(object):
     def download_course_by_data(self, class_id):
         print ('Download class# {}'.format(class_id))
         self.download_course_by_class_id (class_id, True)
+        
+        datafilename = '{}.json'.format(class_id)
+        shutil.move(datafilename, 'tmp')
+        print('Download completed successfully and the data file is moved to tmp folder')
+        
     
     def download_course_by_class_id(self, class_id, read_data_file=False):
         if read_data_file:
